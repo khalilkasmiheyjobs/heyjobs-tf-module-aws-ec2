@@ -5,10 +5,10 @@ locals {
 }
 
 resource "aws_instance" "instance" {
-  ami           = "ami-076309742d466ad69"
+  ami           = "ami-06ce824c157700cd2" #switched to ubuntu
   instance_type = "t3.micro"
 
   tags = {
-    Name = "demo_instance"
+    Name = "updated_demo_instance"
   }
 }

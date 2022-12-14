@@ -3,6 +3,6 @@
 
 ```hcl
 module "heyjobs_ec2_instance" {
-  source              = "git@github.com:heyjobs/heyjobs-tf-module-aws-ec2?ref=1.0.0"
+  source              = "git@github.com:khalilkasmiheyjobs/heyjobs-tf-module-aws-ec2?ref=1.0.1"
 }
 ```

@@ -9,6 +9,8 @@ resource "aws_instance" "instance" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "updated_demo_instance"
+    Name = var.instance_name
   }
 }
+
+variable "instance_name" {}
